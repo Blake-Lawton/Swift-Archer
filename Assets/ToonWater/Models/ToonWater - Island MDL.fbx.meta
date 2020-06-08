@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 76533894805c4804c949d65115a6851b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pPlane1
+    4300002: pCylinder1
+    4300004: pPlane2
+    4300006: pPlane3
+    4300008: pPlane4
+    4300010: pPlane5
+    4300012: pPlane6
+    4300014: pPlane7
+    4300016: pPlane8
+    4300018: pPlane9
+    4300020: pPlane10
+    4300022: pPlane11
+    4300024: transform14
+    4300026: transform13
+    4300028: transform12
+    4300030: transform11
+    4300032: transform10
+    4300034: transform9
+    4300036: transform8
+    4300038: transform7
+    4300040: transform6
+    4300042: transform5
+    4300044: transform4
+    4300046: transform3
+    4300048: polySurface2
+    4300050: IslandMesh
+    4300052: pPlane1
+    4300054: pPlane2
+    4300056: pPlane3
+    4300058: pPlane4
+    4300060: pPlane5
+    4300062: pPlane6
+    4300064: pPlane12
+    4300066: pPlane13
+    4300068: pPlane14
+    4300070: pPlane15
+    4300072: pPlane16
+    4300074: pPlane17
+    4300076: pPlane18
+    4300078: pPlane19
+    4300080: pPlane20
+    4300082: pPlane21
+    4300084: pPlane22
+    4300086: pPlane23
+    4300088: pPlane24
+    4300090: transform41
+    4300092: transform40
+    4300094: transform39
+    4300096: transform38
+    4300098: transform37
+    4300100: transform36
+    4300102: transform35
+    4300104: transform34
+    4300106: transform33
+    4300108: transform32
+    4300110: transform31
+    4300112: transform30
+    4300114: transform29
+    4300116: transform28
+    4300118: transform27
+    4300120: transform26
+    4300122: transform25
+    4300124: transform24
+    4300126: transform23
+    4300128: transform22
+    4300130: transform21
+    4300132: transform20
+    4300134: transform19
+    4300136: transform18
+    4300138: transform17
+    4300140: transform16
+    4300142: transform15
+    4300144: polySurface90
+    4300146: polySurface45
+    4300148: polySurface60
+    4300150: polySurface82
+    4300152: polySurface15
+    4300154: polySurface16
+    4300156: polySurface17
+    4300158: polySurface18
+    4300160: polySurface19
+    4300162: polySurface21
+    4300164: polySurface20
+    4300166: polySurface22
+    4300168: polySurface23
+    4300170: polySurface24
+    4300172: polySurface3
+    4300174: polySurface9
+    4300176: polySurface26
+    4300178: polySurface27
+    4300180: polySurface28
+    4300182: polySurface29
+    4300184: polySurface30
+    4300186: polySurface31
+    4300188: polySurface32
+    4300190: polySurface35
+    4300192: polySurface36
+    4300194: polySurface33
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

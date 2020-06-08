@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 395ab82d1270d7145a572664f7b709ab
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WaterPlane_12800_Tris
+    100004: WaterPlane_200_Tris
+    100006: WaterPlane_2_Tris
+    100008: WaterPlane_3200_Tris
+    100010: WaterPlane_800_Tris
+    400000: //RootNode
+    400002: WaterPlane_12800_Tris
+    400004: WaterPlane_200_Tris
+    400006: WaterPlane_2_Tris
+    400008: WaterPlane_3200_Tris
+    400010: WaterPlane_800_Tris
+    2300000: WaterPlane_12800_Tris
+    2300002: WaterPlane_200_Tris
+    2300004: WaterPlane_2_Tris
+    2300006: WaterPlane_3200_Tris
+    2300008: WaterPlane_800_Tris
+    3300000: WaterPlane_12800_Tris
+    3300002: WaterPlane_200_Tris
+    3300004: WaterPlane_2_Tris
+    3300006: WaterPlane_3200_Tris
+    3300008: WaterPlane_800_Tris
+    4300000: pPlane1
+    4300002: WaterPlane
+    4300004: WaterPlane_200_Tris
+    4300006: WaterPlane_401_Tris
+    4300008: WaterPlane_99_Tris
+    4300010: WaterPlane_2_Tris
+    4300012: polySurface1
+    4300014: BeachBallMesh
+    4300016: polySurface15
+    4300018: polySurface16
+    4300020: polySurface17
+    4300022: polySurface18
+    4300024: polySurface19
+    4300026: polySurface21
+    4300028: polySurface20
+    4300030: polySurface22
+    4300032: polySurface23
+    4300034: polySurface24
+    4300036: polySurface2
+    4300038: polySurface3
+    4300040: polySurface9
+    4300042: polySurface26
+    4300044: polySurface27
+    4300046: polySurface28
+    4300048: polySurface29
+    4300050: polySurface30
+    4300052: polySurface31
+    4300054: polySurface32
+    4300056: polySurface35
+    4300058: polySurface36
+    4300060: polySurface33
+    4300062: polySurface34
+    4300064: polySurface60
+    4300066: pTorus1
+    4300068: pCylinder1
+    4300070: WaterPlane_800_Tris
+    4300072: WaterPlane_3200_Tris
+    4300074: WaterPlane_12800_Tris
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

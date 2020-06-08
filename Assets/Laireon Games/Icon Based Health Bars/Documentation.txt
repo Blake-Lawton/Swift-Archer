@@ -1,0 +1,22 @@
+Thanks for buying this pack!
+
+Short and sweet version.
+
+Create a new object with your canvases hierarchy and then add the IconProgressBar.cs or SplitIconProgressBar.cs component.
+Add your images or one of the split prefabs.
+Set the number of icons you want.
+Done!
+
+If you want to edit the bars value at runtime simply edit the CurrentValue field.
+
+*Split Icons*
+If you want to edit the animation for this take a look at the Transitional Object and play with the components there. Its worth taking a look over the Simple Transitions documentation
+>URL< if you are unsure how to use it. One note for sanity is that Simple Transitions supports multiple selections so if you are changing values select all segments at once to save a lot of time!
+
+For this effect you don't have to quarter your images and could just as easily have say a horizontally or vertically filling icon. To do so simply slice your sprite differently. To do that first select your sprite,
+then make sure its texture type is multiple so the sprite editor button appears. Click it then hit slice on the top left and play with those values.
+
+If you want to add more splits to your images, say have 5 segments instead of 4, take a look at the Quartered prefabs in the prefabs folder and edit the array on the SplitSprite.cs component.
+
+Also note that images are added to the SplitSprite.cs in the order they will be removed. So the last linked image in the array is the first to be removed.
+***
