@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2541377007305292502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2541377007305292503}
+  - component: {fileID: 2541377007305292500}
+  m_Layer: 0
+  m_Name: TextureManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2541377007305292503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2541377007305292502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2541377007305292500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2541377007305292502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb65c30fb6d380b4a8efd0078056a573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTexture:
+  - {fileID: 2800000, guid: 416cc35144991494ab6d83f5c60e8530, type: 3}
+  - {fileID: 2800000, guid: e59e8388f90e7554b889ccd802e9b9e0, type: 3}
+  - {fileID: 2800000, guid: 01bee4896bd6cfd4cad01412fb1f84ab, type: 3}
+  - {fileID: 2800000, guid: 2f51d8e034d628241b21dd4e2961e8d6, type: 3}
+  - {fileID: 2800000, guid: 7cee1759965bfa84bb3c14916a36b3a9, type: 3}
+  - {fileID: 2800000, guid: 990fff9cf8e59b140997bb00fdf6ff52, type: 3}
+  - {fileID: 2800000, guid: 906e581997a730749ab37aa32bf6ee9b, type: 3}
+  - {fileID: 2800000, guid: 5251d6c4991edb544b6ff26e09f4420f, type: 3}
+  - {fileID: 2800000, guid: c5fb248c81f3f874e9ce79284e013bc3, type: 3}
+  - {fileID: 2800000, guid: 48b1efb6d192dda429446d08627d5b8d, type: 3}
+  player: {fileID: 0}

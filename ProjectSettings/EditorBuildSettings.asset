@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Swift Hero/Scenes/TitleMenu.unity
+    path: Assets/Swift Archer/Scenes/TitleMenu.unity
     guid: 73815c0c4a6436a41ac1ff8775198728
   - enabled: 1
-    path: Assets/Swift Hero/Scenes/GamePlayScene.unity
+    path: Assets/Swift Archer/Scenes/GamePlayScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Swift Hero/Scenes/DeathMenu.unity
+    path: Assets/Swift Archer/Scenes/DeathMenu.unity
     guid: ff740d7a7c251714899e976a328bdabf
+  - enabled: 1
+    path: Assets/Swift Archer/Scenes/UpgradeMenu.unity
+    guid: 209b2be9de97e3440858c99555816e87
   m_configObjects: {}

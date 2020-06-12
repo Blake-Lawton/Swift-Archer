@@ -84,27 +84,47 @@
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\GameManagement.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\IconProgressBar.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\MenuController.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\PlatformManager.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\ProgressController.cs" />
-    <Compile Include="Assets\Swift Hero\Scripts\SwipeDetector.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\GameManagement.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\IconProgressBar.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\PlatformManager.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\ProgressController.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\SwipeDetector.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\TextureManager.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWater.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterBall.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterDuck.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterFloatObject.cs" />
     <Compile Include="Assets\ToonWater\Scripts\SmoothCameraOrbit.cs" />
     <Compile Include="Assets\ToonWater\Scripts\SmoothFollowCamBump.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Simple Health Bar\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ToonWater\ToonWater - Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\ToonWater\Shaders\ToonWater - Mobile-Particle-Alpha.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\ToonWater\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\ToonWater\Shaders\ToonWater - shader.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Laireon Games\Icon Based Health Bars\Documentation.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Laireon Games\Icon Based Health Bars\Change Log.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -281,6 +301,12 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
