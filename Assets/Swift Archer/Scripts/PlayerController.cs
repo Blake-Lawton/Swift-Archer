@@ -32,6 +32,11 @@ public class PlayerController : MonoBehaviour
      private float immunedTime;
     [SerializeField] Renderer model1;
     [SerializeField] Renderer model2;
+    [SerializeField] Renderer model3;
+
+    [SerializeField] GameObject blueTrail;
+    [SerializeField] GameObject redTrail;
+    [SerializeField] GameObject rainbowTrail;
 
     private bool movement = false;
     private bool inMotion = false;
@@ -41,9 +46,26 @@ public class PlayerController : MonoBehaviour
     {
         player.GetComponent<Renderer>().material.mainTexture = textureManager.playerTexture[PlayerPrefs.GetInt("TextureIndex")];
 
-        IconProgressBar.currentValue = 3;
-        SwipeDetector.OnSwipe += SwipeDetector_OnSwipe;
         
+        SwipeDetector.OnSwipe += SwipeDetector_OnSwipe;
+
+        if(PlayerPrefs.GetInt("Trial") == 1)
+        {
+            blueTrail.SetActive(true);
+            model3 = blueTrail.GetComponent<TrailRenderer>();
+        }
+        if (PlayerPrefs.GetInt("Trial") == 2)
+        {
+            redTrail.SetActive(true);
+            model3 = redTrail.GetComponent<TrailRenderer>();
+        }
+        if (PlayerPrefs.GetInt("Trial") == 3)
+        {
+            rainbowTrail.SetActive(true);
+            model3 = rainbowTrail.GetComponent<TrailRenderer>();
+        }
+
+
     }
     // Update is called once per frame
     void Update()
@@ -58,6 +80,7 @@ public class PlayerController : MonoBehaviour
             {
                 model1.enabled = !model1.enabled;
                 model2.enabled = !model2.enabled;
+                model3.enabled = !model3.enabled;
                 blinkTime = blink;
             }
 
@@ -65,6 +88,7 @@ public class PlayerController : MonoBehaviour
             {
                 model1.enabled = true;
                 model2.enabled = true;
+                model3.enabled = true;
             }
         }
        
@@ -178,19 +202,20 @@ public class PlayerController : MonoBehaviour
             
             if (immunedTime <= 0)
             {
-                SoundFX.DamageFX();
-                IconProgressBar.valueChanged = true;
-                IconProgressBar.currentValue -= 1;
 
-                if (IconProgressBar.currentValue <= 0)
+                HealthManager.health -= 1; 
+
+                if (HealthManager.health <= 0)
                 {
                     menuController.OnDeath();
                 }
                 else
                 {
+                    SoundFX.DamageFX();
                     immunedTime = immuned;
                     model1.enabled = false;
                     model2.enabled = false;
+                    model3.enabled = false;
 
                     blinkTime = blink;
 

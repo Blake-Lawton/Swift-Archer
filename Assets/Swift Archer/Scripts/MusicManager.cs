@@ -6,6 +6,7 @@ public class MusicManager : MonoBehaviour
 {
     public AudioSource dash;
     public AudioSource takeDamage;
+    public AudioSource buy;
 
     public void Awake()
     {
@@ -20,4 +21,10 @@ public class MusicManager : MonoBehaviour
     {
         takeDamage.Play();
     }    
+
+    public void BuyFX()
+    {
+        buy.Play();
+
+    }
 }

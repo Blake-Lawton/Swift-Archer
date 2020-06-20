@@ -63,21 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Laireon Games\Common\Note.cs" />
-    <Compile Include="Assets\Laireon Games\Common\SplitSprite.cs" />
-    <Compile Include="Assets\Laireon Games\Icon Based Health Bars\Scripts\DemoControls.cs" />
-    <Compile Include="Assets\Laireon Games\Icon Based Health Bars\Scripts\SplitIconProgressBar.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\AlphaTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\BaseTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\ColourTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\MovingTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\MyMaths.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\Note.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\RotatingTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\ScalingTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\StaggeringTransition.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\TransitionGroup.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\TransitionalObject.cs" />
     <Compile Include="Assets\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
@@ -86,7 +71,8 @@
     <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\CameraController.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\GameManagement.cs" />
-    <Compile Include="Assets\Swift Archer\Scripts\IconProgressBar.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\GameMusicManager.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\HealthManager.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\MenuController.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\PlatformManager.cs" />
@@ -94,37 +80,19 @@
     <Compile Include="Assets\Swift Archer\Scripts\ProgressController.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\SwipeDetector.cs" />
     <Compile Include="Assets\Swift Archer\Scripts\TextureManager.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\TutorialController.cs" />
+    <Compile Include="Assets\Swift Archer\Scripts\UpgradeController.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWater.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterBall.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterDuck.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Core\ToonWaterFloatObject.cs" />
     <Compile Include="Assets\ToonWater\Scripts\SmoothCameraOrbit.cs" />
     <Compile Include="Assets\ToonWater\Scripts\SmoothFollowCamBump.cs" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Simple Health Bar\README.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\ToonWater\ToonWater - Readme.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\ToonWater\Shaders\ToonWater - Mobile-Particle-Alpha.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\ToonWater\Shaders\Toony-Basic.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\ToonWater\Shaders\ToonWater - shader.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Laireon Games\Icon Based Health Bars\Documentation.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Laireon Games\Icon Based Health Bars\Change Log.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

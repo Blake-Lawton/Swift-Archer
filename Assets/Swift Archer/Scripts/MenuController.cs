@@ -28,7 +28,8 @@ public class MenuController : MonoBehaviour
 
    public void OnDeath()
     {
-        Debug.Log(GameManagement.score);
+        int score = PlayerPrefs.GetInt("ScoreBank") + (int)GameManagement.score;
+        PlayerPrefs.SetInt("ScoreBank", score );
         
         if (GameManagement.score > PlayerPrefs.GetFloat("Score"))
         {
@@ -45,5 +46,10 @@ public class MenuController : MonoBehaviour
     public void UpgradesButton()
     {
         SceneManager.LoadScene("UpgradeMenu");
+    }
+
+    public void DestroyMusic()
+    {
+        Destroy(GameObject.FindGameObjectWithTag("Music"));
     }
 }

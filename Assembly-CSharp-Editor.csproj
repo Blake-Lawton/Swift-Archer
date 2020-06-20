@@ -63,13 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Laireon Games\Common\Editor\GUIHelper.cs" />
-    <Compile Include="Assets\Laireon Games\Common\Editor\NoteEditor.cs" />
-    <Compile Include="Assets\Laireon Games\Icon Based Health Bars\Scripts\Editor\IconProgressBarEditor.cs" />
-    <Compile Include="Assets\Laireon Games\Icon Based Health Bars\Scripts\Editor\SplitIconProgressBarEditor.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\Editor\TransitionGroupEditor.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\Editor\TransitionalObjectEditor.cs" />
-    <Compile Include="Assets\Laireon Games\Simple Transitions\Scripts\Editor\TransitionalObjectMenu.cs" />
     <Compile Include="Assets\Simple Health Bar\Editor\SimpleHealthBarEditor.cs" />
     <Compile Include="Assets\Simple Health Bar\Editor\SimpleHealthBarWindow.cs" />
     <Compile Include="Assets\ToonWater\Scripts\Editor\ToonWaterEditor.cs" />
